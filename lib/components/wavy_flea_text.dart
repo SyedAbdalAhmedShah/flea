@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class WavyFleaText extends StatelessWidget {
   const WavyFleaText({super.key});
@@ -24,7 +25,7 @@ class WavyFleaText extends StatelessWidget {
       child: Text(
         char,
         style: TextStyle(
-          fontSize: 64,
+          fontSize: 64.sp,
           fontWeight: FontWeight.bold,
           color: Colors.black87,
         ),
